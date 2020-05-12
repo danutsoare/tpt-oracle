@@ -47,6 +47,7 @@ def _tpt_tempdir=&SQLPATH/tmp
   define    1min="sysdate-1/24/60 sysdate"
   define  minute="sysdate-1/24/60 sysdate"
   define    5min="sysdate-1/24/12 sysdate"
+  define   15min="sysdate-15/1440 sysdate"
   define    hour="sysdate-1/24 sysdate"
   define   1hour="sysdate-1/24 sysdate"
   define   2hours="sysdate-1/12 sysdate"
